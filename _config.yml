@@ -1,0 +1,15 @@
+title: AICL 2021
+description: A Field Guide to Other Worlds and Mysterious Realms
+theme: minima
+
+include:
+  - _pages
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "**README.md"
+  - /node_modules
+
+header_pages:
+  - _pages/camp-map.md
