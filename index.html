@@ -105,7 +105,8 @@
       let phrase = prompt("Have you solved the riddle?", "Type your answer here");
       if (phrase == "1221881")  {
         console.log("go");
-        document.getElementById('map').src="/assets/images/Map_Main-night.jpg";
+        document.getElementById('map').src="assets/images/Map_Main-night.jpg"
+        playSound("assets/audio/mixkit-fairy-bell-bless-864.wav");
       }
     }
   </script>
